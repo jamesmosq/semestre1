@@ -1,7 +1,8 @@
-# Ejercicio 3: Duplicar Elementos de una Lista
+# Ejercicio 3: Concatenación de Cadenas
 
-frutas = ["manzana", "plátano", "uva", "naranja"]
-frutas_duplicadas = [fruta * 2 for fruta in frutas]
+nombre = input("Ingresa tu nombre: ")
+edad = int(input("Ingresa tu edad: "))
 
-print(f"Lista original: {frutas}")
-print(f"Lista con elementos duplicados: {frutas_duplicadas}")
+mensaje = f"Hola, {nombre}! Tienes {edad} años."
+
+print(mensaje)
